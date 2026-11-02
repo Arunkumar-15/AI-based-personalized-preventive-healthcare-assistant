@@ -1,0 +1,12 @@
+{
+  "total_samples": 3500,
+  "risk_distribution": {
+    "Critical": 1263,
+    "High": 1097,
+    "Moderate": 624,
+    "Low": 516
+  },
+  "age_mean": 50.8,
+  "bmi_mean": 25.3,
+  "sleep_mean": 6.8
+}

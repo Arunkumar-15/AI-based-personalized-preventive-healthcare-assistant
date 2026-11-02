@@ -1,0 +1,172 @@
+{
+  "model_name": "XGBoost Healthcare Risk Classifier",
+  "n_samples": 3500,
+  "train_samples": 2800,
+  "test_samples": 700,
+  "accuracy": 99.86,
+  "precision_macro": 99.83,
+  "precision_weighted": 99.86,
+  "recall_macro": 99.76,
+  "recall_weighted": 99.86,
+  "f1_macro": 99.79,
+  "f1_weighted": 99.86,
+  "confusion_matrix": [
+    [
+      102,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      149,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      205,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      243
+    ]
+  ],
+  "feature_importances": [
+    {
+      "feature": "risk_score",
+      "importance": 0.4716971814632416
+    },
+    {
+      "feature": "symptom_chest_pain",
+      "importance": 0.18908050656318665
+    },
+    {
+      "feature": "symptom_other",
+      "importance": 0.1724041998386383
+    },
+    {
+      "feature": "symptom_shortness_of_breath",
+      "importance": 0.03996051847934723
+    },
+    {
+      "feature": "symptom_excessive_thirst",
+      "importance": 0.03372478112578392
+    },
+    {
+      "feature": "symptom_dizziness",
+      "importance": 0.016115516424179077
+    },
+    {
+      "feature": "symptom_fatigue",
+      "importance": 0.011747617274522781
+    },
+    {
+      "feature": "fam_heart_disease",
+      "importance": 0.008869767189025879
+    },
+    {
+      "feature": "physical_enc",
+      "importance": 0.0084300572052598
+    },
+    {
+      "feature": "smoking_enc",
+      "importance": 0.007552341092377901
+    },
+    {
+      "feature": "symptom_headache",
+      "importance": 0.006443913094699383
+    },
+    {
+      "feature": "fam_hypertension",
+      "importance": 0.005796695593744516
+    },
+    {
+      "feature": "age",
+      "importance": 0.004988685250282288
+    },
+    {
+      "feature": "fam_stroke",
+      "importance": 0.0047033680602908134
+    },
+    {
+      "feature": "alcohol_enc",
+      "importance": 0.004100494552403688
+    },
+    {
+      "feature": "fam_diabetes",
+      "importance": 0.003625142853707075
+    },
+    {
+      "feature": "sleep_hours",
+      "importance": 0.00263061816804111
+    },
+    {
+      "feature": "bmi",
+      "importance": 0.002556596649810672
+    },
+    {
+      "feature": "symptom_frequent_urination",
+      "importance": 0.0016930884448811412
+    },
+    {
+      "feature": "height_cm",
+      "importance": 0.0015578712336719036
+    },
+    {
+      "feature": "gender_enc",
+      "importance": 0.001395833445712924
+    },
+    {
+      "feature": "weight_kg",
+      "importance": 0.0009251768351532519
+    },
+    {
+      "feature": "fam_cancer",
+      "importance": 0.0
+    }
+  ],
+  "classification_report": {
+    "Low": {
+      "precision": 1.0,
+      "recall": 0.9902912621359223,
+      "f1-score": 0.9951219512195122,
+      "support": 103.0
+    },
+    "Moderate": {
+      "precision": 0.9933333333333333,
+      "recall": 1.0,
+      "f1-score": 0.9966555183946488,
+      "support": 149.0
+    },
+    "High": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 205.0
+    },
+    "Critical": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 243.0
+    },
+    "accuracy": 0.9985714285714286,
+    "macro avg": {
+      "precision": 0.9983333333333333,
+      "recall": 0.9975728155339806,
+      "f1-score": 0.9979443674035402,
+      "support": 700.0
+    },
+    "weighted avg": {
+      "precision": 0.9985809523809523,
+      "recall": 0.9985714285714286,
+      "f1-score": 0.9985703331663035,
+      "support": 700.0
+    }
+  }
+}
